@@ -1,0 +1,23 @@
+<div>
+	<p>Select a category:</p>
+	<ul>
+		{{#each categories as category}}
+		<li> <button on:click='fire( "select", { category } )'>select {{category}}</button></li>
+		{{/each}}
+	</ul>
+</div>
+
+<script>
+	export default {
+		data() {
+			return {
+				categories: [
+					'animal',
+					'vegetable',
+					'mineral'
+				]
+			}
+		}
+	};
+
+</script>

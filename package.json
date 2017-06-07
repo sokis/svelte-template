@@ -1,0 +1,27 @@
+{
+  "name": "svelte-template",
+  "version": "1.0.0",
+  "description": "svelte.js,route",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rollup -c ./build/rollup.config.js -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sokis/svelte-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sokis/svelte-template/issues"
+  },
+  "homepage": "https://github.com/sokis/svelte-template#readme",
+  "devDependencies": {
+    "rollup": "^0.42.0",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-svelte": "^1.8.1",
+    "rollup-watch": "^4.0.0"
+  }
+}
