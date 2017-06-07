@@ -1,2 +1,2 @@
-# svelte-template
-svelte.js,route
+# svelte-template-webpack
+svelte.js,webapck,babel.
