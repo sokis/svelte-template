@@ -1,2 +1,2 @@
 # svelte-template
-svelte.js,route
+svelte.js,rollupjs
